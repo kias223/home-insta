@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 200px;
+}
+
+.container01 {
+    width: 100%;
+    display: flex;
+    border-bottom: solid 0.7px;
+    justify-content: space-between;
+}
+
+.insta_name {
+    width: 20%;
+    height: 120px;
+}
+
+.insta_name img {
+    margin: 0;
+    width: 80%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.inpt_txt {
+    margin-top: 25px;
+    width: 30%;
+    height: 6vh;
+    margin-left: 25%;
+    margin-right: 1%;
+}
+
+.inpt_txt input {
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.icones {
+    margin: 0;
+    margin-right: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.icones i {
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 25px;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.stories {
+    display: flex;
+    width: 62%;
+    margin-left: 20%;
+    height: 35vh;
+    margin-top: 70px;
+    border: solid 0.1px;
+}
+
+.stories p {
+    width: 200px;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 25px;
+}
+
+#storie {
+    width: 100%;
+    display: grid;
+}
+
+.degrade {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 33px;
+    border-radius: 100%;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.storie {
+    border-radius: 100%;
+    width: 95%;
+    height: 95%;
+    margin: 1.8%;
+}
+
+#dream {
+    margin: 0;
+    width: 270px;
+}
+
+.plub {
+    margin-left: 20%;
+    margin-top: 100px;
+    width: 62%;
+    border: solid;
+}
+
+.plub01 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+.plub01 p {
+    margin-top: 55px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.plub02 {
+    width: 100%;
+    height: 90vh;
+    margin-top: 20px;
+}
+
+.container03 {
+    margin-top: 10px;
+}
+
+.container03 i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.container04 {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.container04 p {
+    font-size: 30px;
+}
+
+.container04 p a {
+    text-decoration: none;
+}
+
+.comentarios {
+    color: rgb(142, 133, 133);
+    margin-top: 10px;
+}
+
+.coment {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.usuario {
+margin-right: 10px;
+font-weight: bold;
+}
+
+@media (max-width: 1500px) {
+.insta_name {
+    margin: 0;
+    height: 100px;
+}
+.insta_name img {
+    margin-top: 15px;
+}
+
+.inpt_txt {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+
+.icones i {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.degrade{
+    margin: 0;
+    width: 155px;
+    height: 155px;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.stories {
+    width: 80%;
+    height: 29vh;
+    margin-left: 10%;
+}
+
+.stories p {
+    margin: 0;
+    width: 165px;
+    margin-left: 13px;
+    font-size: 22px;
+}
+
+#dream{
+    margin: 0;
+    text-align: center;
+    width: 196px;
+}
+
+.plub{
+    margin: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+}
+
+/* cell responsive*/
+@media (max-width: 600px) {
+    .insta_name {
+    width: 40%;
+    height: 60px;
+}
+
+.insta_name img {
+    margin-top: 8px;
+}
+   
+.inpt_txt{
+    display: none;
+}
+
+.icones {
+    width: 50%;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.icones i {
+    margin: 0;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.stories {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 90px;
+    border: none;
+    border-bottom: solid 1px;
+}
+
+.stories p {
+    margin: 0;
+    margin-left: 2.8px;
+    margin-top: 10px;
+    font-size: 10px;
+    width: 75px;
+}
+
+#dream {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 90px;
+}
+
+.degrade {
+    margin: 0;
+    width: 65px;
+    height: 65px;
+    margin-right: 4px;
+    margin-left: 8px;
+}
+
+.plub {
+    margin: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.plub01 img {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.plub01 p {
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.plub02 {
+    margin: 0;
+    height: 70vh;
+    margin-top: 10px;
+}
+
+.container04 {
+    margin-left: 25px;
+}
+
+}
